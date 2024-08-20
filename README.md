@@ -1,6 +1,6 @@
 # ACHIVX Editor
 
-ACHIVX editor is a customized version of [Slate](https://www.slatejs.org/) rich text editor that can be embedded into any site:
+ACHIVX editor is a customized version of [Slate](https://www.slatejs.org/) rich text editor that can be embedded into any site ([live example](https://achivx-com.github.io/editor/)):
 
 ```HTML
 <div id="editor"></div>
@@ -48,7 +48,7 @@ ACHIVX editor is a customized version of [Slate](https://www.slatejs.org/) rich 
 </script>
 ```
 
-If you only need to display a content previously created using the ACHIVX editor, you can use a viewer-only bundle:
+If you only need to display a content previously created using the ACHIVX editor, you can use a viewer-only bundle ([live example](https://achivx-com.github.io/editor/viewer-only)):
 
 ```HTML
 <div id="viewer"></div>
