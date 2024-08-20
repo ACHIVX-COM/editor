@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ACHIVX Viewer Example</title>
+  </head>
+  <body>
+    <div id="viewer"></div>
+    <!-- <script src="../build/achivx-viewer-embeddable.js"></script> -->
+    <script
+      src="https://unpkg.com/@achivx/editor-embeddable/build/achivx-viewer-embeddable.js"
+      async
+    ></script>
+    <script type="application/json" id="default-content">
+      {
+        "object": "value",
+        "document": {
+          "object": "document",
+          "data": {},
+          "nodes": [
+            {
+              "object": "block",
+              "type": "heading-one",
+              "data": {},
+              "nodes": [
+                {
+                  "object": "text",
+                  "leaves": [
+                    { "object": "leaf", "text": "ACHIVX Editor", "marks": [] }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "paragraph",
+              "data": {},
+              "nodes": [
+                {
+                  "object": "text",
+                  "leaves": [
+                    {
+                      "object": "leaf",
+                      "text": "ACHIVX editor is a customized version of ",
+                      "marks": []
+                    }
+                  ]
+                },
+                {
+                  "object": "inline",
+                  "type": "link",
+                  "data": {
+                    "src": "https://www.slatejs.org/",
+                    "text": "Slate"
+                  },
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        { "object": "leaf", "text": "Slate", "marks": [] }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "object": "text",
+                  "leaves": [
+                    {
+                      "object": "leaf",
+                      "text": " rich text editor that can be embedded into any site. It supports links, two heading levels as well as:",
+                      "marks": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "numbered-list",
+              "data": {},
+              "nodes": [
+                {
+                  "object": "block",
+                  "type": "list-item",
+                  "data": {},
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        { "object": "leaf", "text": "lists", "marks": [] }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "object": "block",
+                  "type": "list-item",
+                  "data": {},
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        {
+                          "object": "leaf",
+                          "text": "bold",
+                          "marks": [
+                            { "object": "mark", "type": "bold", "data": {} }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "object": "block",
+                  "type": "list-item",
+                  "data": {},
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        {
+                          "object": "leaf",
+                          "text": "italic",
+                          "marks": [
+                            { "object": "mark", "type": "italic", "data": {} }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "object": "block",
+                  "type": "list-item",
+                  "data": {},
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        {
+                          "object": "leaf",
+                          "text": "underlining",
+                          "marks": [
+                            {
+                              "object": "mark",
+                              "type": "underlined",
+                              "data": {}
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "object": "block",
+                  "type": "list-item",
+                  "data": {},
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        {
+                          "object": "leaf",
+                          "text": "strike-through",
+                          "marks": [
+                            {
+                              "object": "mark",
+                              "type": "strikethrough",
+                              "data": {}
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "object": "block",
+                  "type": "list-item",
+                  "data": {},
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        {
+                          "object": "leaf",
+                          "text": "code",
+                          "marks": [
+                            { "object": "mark", "type": "code", "data": {} }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "block-quote",
+              "data": { "placeholder": "quote" },
+              "nodes": [
+                {
+                  "object": "block",
+                  "type": "numbered-list",
+                  "data": {},
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        { "object": "leaf", "text": "Quotes", "marks": [] }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "bulleted-list",
+              "data": {},
+              "nodes": [
+                {
+                  "object": "block",
+                  "type": "list-item",
+                  "data": {},
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        { "object": "leaf", "text": "images:", "marks": [] }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "paragraph",
+              "data": {},
+              "nodes": [
+                {
+                  "object": "text",
+                  "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "image",
+              "data": {
+                "id": "7mFsuCywa2ynuJjW9QQXo",
+                "url": "./random-image.jpg",
+                "alt": "Random image"
+              },
+              "nodes": [
+                {
+                  "object": "text",
+                  "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "bulleted-list",
+              "data": {},
+              "nodes": [
+                {
+                  "object": "block",
+                  "type": "list-item",
+                  "data": {},
+                  "nodes": [
+                    {
+                      "object": "text",
+                      "leaves": [
+                        {
+                          "object": "leaf",
+                          "text": "embedded videos (from YouTube or Vimeo):",
+                          "marks": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "video",
+              "data": { "video": "https://www.youtube.com/embed/dQw4w9WgXcQ" },
+              "nodes": [
+                {
+                  "object": "text",
+                  "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "paragraph",
+              "data": {},
+              "nodes": [
+                {
+                  "object": "text",
+                  "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "type": "paragraph",
+              "data": {},
+              "nodes": [
+                {
+                  "object": "text",
+                  "leaves": [
+                    {
+                      "object": "leaf",
+                      "text": "The documents are stored as JSON. The images are by default stored as data-URLs inside the document, but you can provide a custom file storage implementation.",
+                      "marks": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    </script>
+    <script>
+      (window.achivxEditorCallbacks = window.achivxEditorCallbacks || []).push(
+        function ({ AchivxViewer }) {
+          const lsKey = "achivxEditorDemoContent";
+          const initialValue = localStorage.getItem(lsKey)
+            ? JSON.parse(localStorage.getItem(lsKey))
+            : JSON.parse(document.getElementById("default-content").innerText);
+          const viewer = (window.viewer = new AchivxViewer({
+            element: document.getElementById("viewer"),
+            value: initialValue,
+          }));
+          window.addEventListener("storage", function (event) {
+            if (event.storageArea === localStorage && event.key === lsKey) {
+              viewer.value = JSON.parse(event.newValue);
+            }
+          });
+        }
+      );
+    </script>
+  </body>
+</html>
