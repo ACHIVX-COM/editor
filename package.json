@@ -1,0 +1,33 @@
+{
+  "name": "@achivx/editor",
+  "version": "0.0.1",
+  "scripts": {
+    "prepare": "[ \"$NODE_ENV\" = \"production\" ] && exit; husky"
+  },
+  "license": "MIT",
+  "description": "",
+  "workspaces": [
+    "packages/achivx-editor-base",
+    "packages/achivx-editor-embeddable"
+  ],
+  "lint-staged": {
+    "*.{yaml,json}": "prettier --write",
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.3",
+    "rollup": "^4.19.1"
+  },
+  "dependencies": {
+    "slate": "0.45.1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@achivx/editor-embeddable",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.2",
+    "@babel/preset-react": "^7.24.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.7",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@svgr/rollup": "^8.1.0",
+    "rollup": "^4.19.1",
+    "rollup-plugin-import-css": "^3.5.0",
+    "rollup-plugin-polyfill-node": "^0.13.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepack": "rollup -c"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "styled-components": "^6.1.12"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
