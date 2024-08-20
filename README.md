@@ -76,5 +76,5 @@ If you only need to display a content previously created using the ACHIVX editor
 </script>
 ```
 
-There also is a [@achivx/editor-base](./packages/achivx-editor-base/) package that contains the ACHIVX Editor (and separate components it's made of) as React components.
+There also is a [@achivx/editor-base](./packages/achivx-editor-base/) ([NPM](https://www.npmjs.com/package/@achivx/editor-base)) package that contains the ACHIVX Editor (and separate components it's made of) as React components.
 These components can be used to embed the editor into a React-based application.
